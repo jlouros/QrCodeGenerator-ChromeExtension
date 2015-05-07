@@ -1,0 +1,73 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"/bower.json",
+				"/.bower.json"
+			],
+			"url": "http://json.schemastore.org/bower"
+		},
+		{
+			"fileMatch": [
+				"/package.json"
+			],
+			"url": "http://json.schemastore.org/package"
+		},
+		{
+			"fileMatch": [
+				"/project.json"
+			],
+			"url": "http://json.schemastore.org/project"
+		},
+		{
+			"fileMatch": [
+				"*.schema.json"
+			],
+			"url": "http://json-schema.org/draft-04/schema#"
+		},
+		{
+			"fileMatch": [
+				"/global.json"
+			],
+			"url": "http://json.schemastore.org/global"
+		},
+		{
+			"fileMatch": [
+				"/ticino.plugin.json"
+			],
+			"url": "http://opentools.azurewebsites.net/ticino.plugin.json"
+		},
+		{
+			"fileMatch": [
+				"/tsconfig.json"
+			],
+			"url": "http://json.schemastore.org/tsconfig"
+		},
+		{
+			"fileMatch": [
+				"/.bowerrc"
+			],
+			"url": "http://json.schemastore.org/bowerrc"
+		},
+		{
+			"fileMatch": [
+				"/.jshintrc"
+			],
+			"url": "http://json.schemastore.org/jshintrc"
+		},
+		{
+			"fileMatch": [
+				"/.jscsrc"
+			],
+			"url": "http://json.schemastore.org/jscsrc"
+		},
+		// JSON schema for Google Chrome extension manifest files
+		{
+			"fileMatch": [
+				"/manifest.json"
+			],
+			"url": "http://json.schemastore.org/chrome-manifest"
+		}
+	]
+}
